@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "spotify-data-engineer"
+version = "0.1.0"
+description = ""
+authors = ["claude <claude.seguret@laposte.Fr>"]
+readme = "README.md"
+packages = [{include = "spotify_data_engineer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pendulum = "^2.1.2"
+pandas = "^1.4.4"
+matplotlib = "^3.5.3"
+requests = "^2.28.1"
+furl = "^2.1.3"
+spotipy = "^2.20.0"
+psycopg2 = "^2.9.3"
+SQLAlchemy = "^1.4.41"
+pytest = "^7.1.3"
+coverage = "^6.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+pytest = "^7.1.3"

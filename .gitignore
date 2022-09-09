@@ -1,0 +1,8 @@
+.pytest_cache
+__pycache__
+.cache
+.coverage
+.desktop.ini/
+*.swp
+*.desktop.ini
+*desktop.ini
